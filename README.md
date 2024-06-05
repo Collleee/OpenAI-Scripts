@@ -1,13 +1,10 @@
-# OpenAI Python Scripts
+# OpenAI for Pythonista
 
-This repository contains a collection of Python scripts that utilize the OpenAI API to perform various tasks. These scripts are designed to work seamlessly in Pythonista or any Python environment. Below is an overview of the included scripts and their functionalities.
+Welcome to the OpenAI for Pythonista branch of the OpenAI Python Scripts repository. This branch contains a Python script that engages in a conversation with OpenAI and saves the conversation as a text file. The script is designed to work seamlessly in Pythonista or any Python environment.
 
 ## Overview
 
-1. **ArtGPT**: A script that generates images based on user prompts using the OpenAI API.
-2. **OpenAI for Pythonista**: A script that conducts a dialogue with OpenAI and saves the conversation as a text file in the Pythonista app.
-3. **KeyboardGPT**: A script that allows users to use Pythonista's keyboard shortcuts to interact with OpenAI, making it easy to copy and paste responses.
-4. **Terminal-AI** A script similar to OpenAI for Pythonista except its for any python environment. It saves a text file in the same directory of the python script and changes the text color of the assistant to blue.
+The `OpenAI for Pythonista` script allows users to chat with OpenAI and saves the entire conversation to a text file. This can be useful for keeping records of interactions or for later reference.
 
 ## Setup
 
@@ -19,7 +16,8 @@ This repository contains a collection of Python scripts that utilize the OpenAI 
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository and switch to the `ConversationSaver` branch:
    ```sh
    git clone https://github.com/yourusername/OpenAI-Python-Scripts.git
    cd OpenAI-Python-Scripts
+   git checkout ConversationSaver
